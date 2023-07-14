@@ -9,3 +9,5 @@ class BlogModel(models.Model):
     image = models.ImageField(upload_to='blog')
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
+
+
